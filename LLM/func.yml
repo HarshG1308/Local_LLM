@@ -1,0 +1,11 @@
+RETURN_SOURCE_DOCUMENTS: True
+VECTOR_COUNT: 2
+CHUNK_SIZE: 300
+CHUNK_OVERLAP: 30
+DATA_PATH: 'data/'
+DB_FAISS_PATH: 'vectorstore/db_faiss'
+MODEL_TYPE: 'mistral'
+MODEL_BIN_PATH: 'models\mistral-7b-instruct-v0.2.Q4_0.gguf'
+EMBEDDINGS: 'sentence-transformers/all-mpnet-base-v2'
+MAX_NEW_TOKENS: 256
+TEMPERATURE: 0.0
